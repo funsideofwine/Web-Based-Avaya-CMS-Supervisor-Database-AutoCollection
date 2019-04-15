@@ -1,0 +1,1 @@
+UPDATE `avaya_reports_db`.`avaya_cms_report` SET date1 = STR_TO_DATE(date, '%m/%d/%Y')

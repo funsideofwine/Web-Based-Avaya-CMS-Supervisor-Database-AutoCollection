@@ -1,0 +1,1 @@
+UPDATE `avaya_reports_db`.`avaya_cms_report` SET start_time1 = STR_TO_DATE(start_time, '%l:%i%p' )

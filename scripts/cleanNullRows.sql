@@ -1,0 +1,1 @@
+DELETE FROM `avaya_reports_db`.`avaya_cms_report` WHERE call_id = 0
