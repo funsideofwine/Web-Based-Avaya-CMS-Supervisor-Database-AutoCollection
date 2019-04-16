@@ -49,29 +49,6 @@ From the dropdown list you can select specific query parameter(s) or fill up the
 <HR>
 <FORM ACTION="queryreport.php" METHOD="POST"/>
 
-
-<!--
-Call Type:&nbsp;&nbsp;&nbsp;
-<select name="calltype">
-<option value="%%">All</option>
-<option value="mobile">Mobile</option>
-<option value="telephone">Telephone</option>
-</select>
-&nbsp;&nbsp;&nbsp;
-Site Name:&nbsp;&nbsp;&nbsp;
-<select name="sitename">
-<option value="%%">All</option>
-<option value="riyadh">Riyadh</option>
-<option value="jeddah">Jeddah</option>
-<option value="makkah">Makkah</option>
-<option value="taif">Taif</option>
-<option value="allsite">AllSite</option>
-<option value="others">Others</option>
-</select>
-</br></br>
--->
-
-
 Call ID:&nbsp;<input type="text" name="call_id" >&nbsp;&nbsp;&nbsp;
 Calling Party:&nbsp;<input type="text" name="calling_party" >&nbsp;&nbsp;&nbsp;
 Dialed Number:&nbsp;<input type="text" name="dialed_number" >&nbsp;&nbsp;&nbsp;
@@ -192,13 +169,6 @@ Start Time Hour:&nbsp;&nbsp;&nbsp;
 <INPUT TYPE="BUTTON" Value="SIGNOUT" onclick="newPage(0)" />
 
 </FORM>
-
-
-
-
-
-
-
 
 </BODY>
 <!--<h6 align="center" >Developed by Rolly Falco Villacacan | All Rights Reserved</h6>-->
