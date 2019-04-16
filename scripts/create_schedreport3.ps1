@@ -51,4 +51,4 @@ LINES TERMINATED BY '\n';
 
 
 
-#Get-Content "C:\xampp\htdocs\avayareports\scripts\scheduledreport.sql" -Raw 
+Get-Content "C:\xampp\htdocs\avayareports\scripts\scheduledreport.sql" -Raw 

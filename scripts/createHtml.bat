@@ -1,7 +1,7 @@
-﻿#remove raw file
-#Remove-Item "C:\xampp\htdocs\avayareports\scripts\cms_config\config.acsauto" | Where { ! $_.PSIsContainer }
+#remove raw file
+Remove-Item "C:\xampp\htdocs\avayareports\scripts\html_body" | Where { ! $_.PSIsContainer }
 
-$output = "C:\xampp\htdocs\avayareports\raw\config.acsauto"
+$output = "C:\xampp\htdocs\avayareports\scripts\html_body"
 
 
 Add-Content $output @'
@@ -52,12 +52,6 @@ Add-Content $output @'
 ##############################################################
 ##############################################################
 ##############################################################
-
-
-
-
-
-
 
 Add-Content $output @'
 

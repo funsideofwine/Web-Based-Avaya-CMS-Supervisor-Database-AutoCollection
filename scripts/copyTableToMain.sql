@@ -1,0 +1,1 @@
+INSERT INTO `avaya_reports_db`.`avaya_cms_report_main` SELECT * FROM `avaya_reports_db`.`avaya_cms_report`

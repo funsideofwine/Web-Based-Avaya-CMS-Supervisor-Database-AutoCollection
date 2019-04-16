@@ -1,7 +1,7 @@
 ﻿#remove raw file
-Remove-Item "C:\xampp\htdocs\avayareports\scripts\scheduledreport2.sql" | Where { ! $_.PSIsContainer }
+Remove-Item "C:\xampp\htdocs\avayareports\scripts\scheduledreport.sql" | Where { ! $_.PSIsContainer }
 
-$output = "C:\xampp\htdocs\avayareports\scripts\scheduledreport2.sql"
+$output = "C:\xampp\htdocs\avayareports\scripts\scheduledreport.sql"
 
 
 ##############################################################
@@ -32,12 +32,7 @@ Add-Content $output "and YEAR(date1) = `'$yy`'"
 #'@  
 ##############################################################
 ##############################################################
-Add-Content $output "and dialed_number = `'159222`'"
-#Add-Content $output @'
-#'@  
-##############################################################
-##############################################################
-Add-Content $output "INTO OUTFILE 'C:\\xampp\\htdocs\\avayareports\\raw\\9222Report$dd$mm$yy.csv'"
+Add-Content $output "INTO OUTFILE 'C:\\xampp\\htdocs\\avayareports\\raw\\dailyReport$dd$mm$yy.csv'"
 #Add-Content $output @'
 #'@  
 ##############################################################

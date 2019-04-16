@@ -69,14 +69,14 @@ function sendMail{
     
      $recipient = ""
      $recipient +=       "rolly@nwc.com.sa"
-     #$recipient += "," + "mmusthafa@nwc.com.sa"     
-     #$recipient += "," + "pdevabhaktuni@nwc.com.sa"     
-     #$recipient += "," + "zahammad@nwc.com.sa"
-     #$recipient += "," + "vaahmed@nwc.com.sa"
-     #$recipient += "," + "srahiman@nwc.com.sa" 
-     #$recipient += "," + "ahamouda@nwc.com.sa"    
-     #$recipient += "," + "suvasu@nwc.com.sa"    
-     #$recipient += "," + "mdrahman@nwc.com.sa"    
+     $recipient += "," + "mmusthafa@nwc.com.sa"     
+     $recipient += "," + "pdevabhaktuni@nwc.com.sa"     
+     $recipient += "," + "zahammad@nwc.com.sa"
+     $recipient += "," + "vaahmed@nwc.com.sa"
+     $recipient += "," + "srahiman@nwc.com.sa" 
+     $recipient += "," + "ahamouda@nwc.com.sa"    
+     $recipient += "," + "suvasu@nwc.com.sa"    
+     $recipient += "," + "mdrahman@nwc.com.sa"    
     
 
      $msg.To.Add($recipient)     
