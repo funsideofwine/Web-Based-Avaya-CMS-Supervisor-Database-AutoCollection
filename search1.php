@@ -4,7 +4,7 @@
 set_time_limit (600);
 session_start();
 
-if(!isset($_SESSION['u_email'])) {	
+if(!isset($_SESSION['u_email'])) {
   header("location: login1.php?header=Session&msg=\"Please Login\"");
   exit();
 }
@@ -57,11 +57,6 @@ Dialed Number:&nbsp;<input type="text" name="dialed_number" >&nbsp;&nbsp;&nbsp;
 
 Year:&nbsp;&nbsp;&nbsp;
 <select name="yy">
-<!--<option value="14">2014</option>
-<option value="15">2015</option>
-<option value="16">2016</option>
-<option value="17">2017</option>
-<option value="18">2018</option>-->
 <option value="%%" selected="selected" >*Select</option>
 <option value="2019" >2019</option>
 <option value="2020">2020</option>
