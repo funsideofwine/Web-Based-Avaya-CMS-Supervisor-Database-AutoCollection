@@ -1,6 +1,0 @@
-SetTitleMatchMode, 2       ;// matches partial window titles
-F7::                       ;// hotkey
-WinActivate, Avaya CMS Supervisor    ;// activate window with this title
-return   
-Sendinput, rolly123{enter}
-return
