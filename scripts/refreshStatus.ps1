@@ -1,1 +1,0 @@
-﻿New-Item -Path 'C:\xampp\htdocs\avayareports\scripts\refresh.stat' -ItemType File
