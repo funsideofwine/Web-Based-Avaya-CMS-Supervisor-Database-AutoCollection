@@ -1,5 +1,5 @@
 <?php
-$dbServername = "10.48.21.55";
+$dbServername = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
 $dbName = "hwinv";
